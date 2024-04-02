@@ -7,7 +7,7 @@ export const NavbarItems = [
   {
     title: "About US",
     titleArab: "حول",
-    url: "/aboute",
+    url: "/about",
   },
   {
     title: "Contact",
