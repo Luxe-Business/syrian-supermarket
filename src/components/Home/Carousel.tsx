@@ -48,11 +48,11 @@ export default function Carousel(): JSX.Element {
                     <button
                       className={` ${
                         mode == "Eng"
-                          ? "absolute top-[60%] lg:top-[52%] left-8  lg:left-36"
-                          : "absolute top-[78%] lg:top-[66%] md:top-[55%]  right-12 lg:right-36"
+                          ? "absolute top-[60%] lg:top-[50%] left-8  lg:left-36"
+                          : "absolute top-[58%] lg:top-[53%] md:top-[55%]  right-12 lg:right-36"
                       } bg-green-600 w-[50%] lg:w-[15%] md:w-[30%] h-[8%] rounded-xl `}
                     >
-                      {mode == "Eng" ? "Lets Go" : "هيا بنا لنبدا رحلة التسوق"}
+                      {mode == "Eng" ? "Browse Products" : "تصفح المنتجات"}
                     </button>
                   </div>
                 </div>

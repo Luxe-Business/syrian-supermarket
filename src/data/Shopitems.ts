@@ -1,26 +1,19 @@
 export const CardItemShop = [
   {
     title: " Healthy Carrot",
-    titleArabic: "الجزر الصحي",
+    titleArabic: "الجزر الطازج",
     img: "https://0effortthemes.com/veggie/images/homepage/vegitable-medium-1.jpg",
-    rate: "5.0",
-    price: "599$",
   },
   {
-    title: "Awsome Apples",
+    title: "Apple Varieties",
     titleArabic: "اصناف التفاح",
     img: "https://0effortthemes.com/veggie/images/homepage/vegitable-medium-2.jpg",
-    rate: "5.0",
-    price: "599$",
   },
   {
-    title: "Fresh Corns",
-    titleArabic:'الذرة الطازجة',
+    title: "Fresh Tomatoes",
+    titleArabic: "الطماطم الطازجة",
     img: "https://0effortthemes.com/veggie/images/homepage/vegitable-medium-6.jpg",
-    rate: "5.0",
-    price: "599$",
   },
-
 ];
 
 export const ButtonShob = [

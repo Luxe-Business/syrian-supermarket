@@ -11,15 +11,20 @@ const About = () => {
         alt="Veggie Banner"
       />
       <div className="  lg:w-[50%] px-10 pb-10 pt-10">
-        <h1 className="text-4xl font-bold">{mode=='Eng'?'About veggie super market':'حول السوبر ماركت'}</h1>
+        <h1 className="text-4xl font-bold">
+          {mode == "Eng"
+            ? "Discover the Essence of Syrian Supermarkt"
+            : "اكتشف جوهر السوبرماركت السوري"}
+        </h1>
         <p className="mt-5">
-          {mode=='Eng'?'Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making itlook like readable English. Many desktop publishing packages and webpage Many desktop publishing packages and web':'لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي. وخلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد. من كتاب “حول أقاصي الخير والشر'}
+          {mode == "Eng"
+            ? "Welcome to Syrian Supermarkt, where we redefine your culinary experience with an exquisite selection of premium food products. At Syrian Supermarkt, we are committed to delivering unparalleled quality, freshness, and taste to our valued customers. With meticulous sourcing and a passion for excellence, we curate an array of fine produce, succulent meats, and gourmet delights from around the world. Our mission is to elevate your gastronomic journey and exceed your expectations with every visit."
+            : "مرحبًا بك في السوبرماركت السوري، حيث نعيد تعريف تجربتك الطهوية مع مجموعة رائعة من منتجات الطعام الفاخرة. في السوبرماركت السوري، نحن ملتزمون بتقديم جودة لا مثيل لها، وطازجة، ونكهة رائعة لعملائنا الكرام, بفضل اختيارنا الدقيق وشغفنا بالتميز، نقوم بتجميع مجموعة متنوعة من المنتجات الطازجة واللحوم الشهية والأطعمة اللذيذة من جميع أنحاء العالم. مهمتنا هي تعزيز رحلتك الطهوية وتجاوز توقعاتك في كل زيارة."}
         </p>
         <button className="bg-green-600 px-10 py-3 rounded-lg text-white mt-9">
-          {mode=='Eng'?'Read More':'اقرا المزيد'}
+          {mode == "Eng" ? "Read More" : "اقرا المزيد"}
         </button>
       </div>
-     
     </div>
   );
 };

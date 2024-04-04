@@ -1,66 +1,64 @@
 export const faqItems = [
   {
-    question: "How can I place an order?",
-    questionArabic: "كيف يمكنني وضع النظام؟",
-
-    answer:
-      "You can easily place an order on our website by browsing our product catalog, selecting the items you want, and adding them to your cart. Then, proceed to checkout, where you can provide your shipping and payment information to complete the order.",
-    answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
-  },
-  {
     question: "What payment methods do you accept?",
-    questionArabic: "ما هي طرق الدفع التي تقبلونها؟",
+    questionArabic: "ما هي وسائل الدفع التي تقبلونها؟",
 
     answer:
-      "We accept various payment methods, including credit cards, debit cards, net banking, and mobile wallet payments. You can choose the payment option that is most convenient for you during the checkout process.",
-
+      "We accept various payment methods including credit/debit cards, PayPal, and cash on delivery.",
     answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+      "نقبل مختلف وسائل الدفع بما في ذلك بطاقات الائتمان/الخصم، باي بال، والدفع عند الاستلام.",
   },
   {
-    question: "How long does shipping take?",
-    questionArabic: "كم تستغرق عملية الشحن من الوقت؟",
+    question: "Store Hours?",
+    questionArabic: "ساعات العمل؟",
 
-    answer:
-      "Shipping times may vary depending on your location and the shipping method chosen. Typically, orders are processed within 1-2 business days, and delivery can take 3-7 business days within India. You will receive a tracking notification once your order is shipped.",
+    answer: "Monday - Saturday: 9:00 AM - 9:00 PM.",
 
-    answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+    answerArabic: "من الإثنين إلى السبت: 9:00 صباحًا - 9:00 مساءً.",
   },
   {
-    question: "Can I return a product if I'm not satisfied?",
-    questionArabic: "ما هي جهة الاتصال الخاصة بدعم العملاء؟",
+    question: "How can I contact customer support?",
+    questionArabic: "كيف يمكنني الاتصال بخدمة العملاء؟",
 
     answer:
-      "Yes, we have a hassle-free return policy. If you are not satisfied with your purchase, you can initiate a return within 30 days of receiving the product. Please contact our customer support at example@gmail.com for assistance.",
+      "You can reach our customer support team via email at support@gmail.com or by phone at +356 9939 2771 We're available to assist you from Sunday to Thursday, 9:00 AM to 6:00 PM (GMT).",
+
     answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+      "يمكنك التواصل مع فريق دعم العملاء لدينا عبر البريد الإلكتروني على support@example.com أو عن طريق الهاتف على 356 9939 2771+ نحن متاحون لمساعدتك من الأحد إلى الخميس، من الساعة 9:00 صباحًا إلى الساعة 6:00 مساءً (توقيت جرينتش).",
   },
   {
     question: "Do you offer international shipping?",
-    questionArabic: "هل نقدم الشحن الدولي؟",
+    questionArabic: "هل تقدمون شحن دولي؟",
 
     answer:
-      "Currently, we only provide shipping services within India. However, we may consider expanding our shipping options to international locations in the future. Please stay updated with our website for any changes in shipping destinations.",
+      "Yes, we offer international shipping to select countries. Shipping fees and delivery times may vary depending on the destination.",
     answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+      "نعم، نقدم شحن دولي إلى بعض الدول المحددة. قد تختلف رسوم الشحن وأوقات التسليم حسب الوجهة.",
   },
   {
-    question: "What is your customer support contact?",
-    questionArabic: "ما هي جهة الاتصال الخاصة بدعم العملاء؟",
+    question: "How can I track my order?",
+    questionArabic: "كيف يمكنني تتبع طلبي؟",
 
     answer:
-      "If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at example@gmail.com.",
+      " Once your order is shipped, you will receive a tracking number via email. You can use this number to track your order on our website or the courier's website.",
     answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+      "بمجرد شحن طلبك، ستتلقى رقم تتبع عبر البريد الإلكتروني. يمكنك استخدام هذا الرقم لتتبع طلبك على موقعنا الإلكتروني أو موقع الشركة الناقلة.",
+  },
+  {
+    question: "What are your pricing options?",
+    questionArabic: "ما هي خيارات التسعير الخاصة بكم؟",
+
+    answer:
+      "We offer competitive pricing on all our products, ensuring you get the best value for your money. Our pricing options are transparent and clearly displayed on our website, allowing you to make informed purchasing decisions.",
+    answerArabic:
+      " نحن نقدم أسعار تنافسية على جميع منتجاتنا، مضمونة لتحصل على أفضل قيمة مقابل أموالك. خيارات التسعير الخاصة بنا شفافة ومعروضة بوضوح على موقعنا الإلكتروني، مما يتيح لك اتخاذ قرارات شراء مستنيرة.",
   },
   {
     question: "What are your terms and conditions?",
-    questionArabic: "ما هي شروط وأحكام الخاصة بك؟",
+    questionArabic: "ما هي الشروط والأحكام",
     answer:
-      "You can find our detailed terms and conditions by visiting our Terms of Service page on our website. It includes information about our policies, user guidelines, and more.",
+      "Our terms and conditions outline the guidelines and agreements governing your use of our website and services. By accessing or using our website, you agree to abide by these terms and conditions. They cover various aspects including but not limited to, ordering, payment, shipping, returns, and privacy policies. You can view our full terms and conditions on our website.",
     answerArabic:
-      "لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه … بروشور او فلاير على سبيل المثال … او نماذج مواقع انترنت … وعند موافقه العميل المبدئيه   او الانتقادات للتصميم الاساسي. وخلافاَ الميلاد. من كتاب “حول أقاصي الخير والشر",
+      "تحدد شروطنا وأحكامنا الإرشادات والاتفاقيات التي تحكم استخدامك لموقعنا الإلكتروني وخدماتنا. من خلال الوصول إلى موقعنا الإلكتروني أو استخدامه، فإنك توافق على الالتزام بهذه الشروط والأحكام. تغطي هذه الشروط والأحكام جوانب مختلفة بما في ذلك، ولكن لا تقتصر على، الطلبات، الدفع، الشحن، الإرجاع، وسياسات الخصوصية. يمكنك مشاهدة الشروط والأحكام الكاملة على موقعنا الإلكتروني.",
   },
 ];
