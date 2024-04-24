@@ -1,0 +1,83 @@
+body {
+    background: #e7e4ee;
+}
+.container {
+    padding: 75px 15px;
+    margin: 0 auto;
+    max-width: 1400px; 
+  }
+  
+  h1 {
+    position: relative;
+    margin-bottom: 45px;
+    font-family: "Oswald", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #065c11;
+    text-align: center;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+  }
+  
+  .item {
+    flex: 1 1 300px; 
+    margin: 10px; 
+    height: 200px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    filter: blur(1px);
+    border-radius: 25px;
+  }
+  .item:hover {
+    flex: 3 1 300px; 
+    filter: blur(0px);
+  }
+  
+  .item-1 {
+    background-image: url("../../assets/img1.jpg");
+  }
+  
+  .item-2 {
+    background-image: url("../../assets/img2.jpg");
+  }
+  
+  .item-3 {
+    background-image: url("../../assets/img3.jpg");
+  }
+  
+  .item-4 {
+    background-image: url("../../assets/img4.jpg");
+  }
+  
+  .item-5 {
+    background-image: url("../../assets/img5.jpg");
+  }
+  .item-6 {
+    background-image: url("../../assets/img6.jpg");
+  }
+  .item-7 {
+    background-image: url("../../assets/img7.jpg");
+  }
+  .item-8 {
+    background-image: url("../../assets/img8.jpg");
+  }
+  .social {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+  }
+  .social img {
+    display: block;
+    width: 32px;
+  }
+  

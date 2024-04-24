@@ -6,6 +6,7 @@ import Featured from './Featured'
 import OurShop from './OurShop'
 import Footer from './Footer'
 import Carousel from './Carousel'
+import Slider from './slider'
 
 const HomePage = () => {
  
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Vegitable />
       <Featured />
       <OurShop />
+      <Slider/>
       <Footer />
     </div>
   )
